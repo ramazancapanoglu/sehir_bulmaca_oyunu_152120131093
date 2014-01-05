@@ -3,7 +3,7 @@ package com.example.kelimeoyunu;
 import android.os.Handler;
 
 public class Timer { 
-	  private int _interval; 
+	  private int _interval;
 	  public int getInterval() { return _interval; } 
 	  public void setInterval(int delay) { _interval = delay; } 
 	  private Handler handler; 
