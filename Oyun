@@ -58,6 +58,7 @@ private Button[] butonlar;
 					HarfYaz((Button) v);
 					KontrolEt();
 					
+					
 				}
 			});
 		}
