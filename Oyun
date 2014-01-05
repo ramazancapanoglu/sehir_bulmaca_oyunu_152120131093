@@ -20,6 +20,7 @@ public class Oyun extends Activity {
 
 private Button[] butonlar;
 	
+	
 	String kelime="";
 	String il="";
 	boolean blinkOn = false;
