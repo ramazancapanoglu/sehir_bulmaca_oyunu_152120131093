@@ -45,6 +45,7 @@ public class KelimeOyunu extends Activity {
 			public void onClick(View v) {
 				System.exit(0);
 				
+				
 			}
 		});
 		
