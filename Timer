@@ -35,6 +35,7 @@ public class Timer {
 	  } 
 	  
 	  public void start() 
+	  
 	  { 
 	    if (ticking) return; 
 	    handler.postDelayed(delegate, _interval); 
