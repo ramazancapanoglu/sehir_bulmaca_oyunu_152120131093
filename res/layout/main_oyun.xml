@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".KelimeOyunu" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn"
+        android:clickable="false"
+        android:ems="10"
+        android:gravity="center_vertical|center" />
+
+    <AbsoluteLayout
+        android:id="@+id/GameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="5dp"
+        android:background="#000" >
+
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="5px"
+            android:background="@drawable/btn"
+            android:text="0"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="5px"
+            android:background="@drawable/btn"
+            android:text="1"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="5px"
+            android:background="@drawable/btn"
+            android:text="2"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="110px"
+            android:background="@drawable/btn"
+            android:text="3"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="110px"
+            android:background="@drawable/btn"
+            android:text="4"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="110px"
+            android:background="@drawable/btn"
+            android:text="5"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="215px"
+            android:background="@drawable/btn"
+            android:text="6"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="215px"
+            android:background="@drawable/btn"
+            android:text="7"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="215px"
+            android:background="@drawable/btn"
+            android:text="8"
+            android:textSize="48px" />
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="60px"
+        android:layout_below="@+id/GameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn"
+        android:text="İLERİ" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="1 soruda 0 doğru bildiniz."
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Süre : 15"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+</RelativeLayout>
